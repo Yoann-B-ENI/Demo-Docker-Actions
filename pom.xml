@@ -61,7 +61,7 @@
 	    <repository>
 	      <uniqueVersion>false</uniqueVersion>
 	      <id>github</id>
-	      <name>Corporate Repository</name>
+	      <name>Demo Github Repo</name>
 	      <url>scp://repo/maven2</url>
 	      <layout>default</layout>
 	    </repository>
