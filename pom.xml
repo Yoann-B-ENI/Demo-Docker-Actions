@@ -62,16 +62,9 @@
 	      <uniqueVersion>false</uniqueVersion>
 	      <id>github</id>
 	      <name>Demo Github Repo</name>
-	      <url>scp://repo/maven2</url>
+	      <url>https://maven.pkg.github.com/Yoann-B-ENI/demo</url>
 	      <layout>default</layout>
 	    </repository>
-	    <snapshotRepository>
-	      <uniqueVersion>true</uniqueVersion>
-	      <id>propSnap</id>
-	      <name>Propellors Snapshots</name>
-	      <url>sftp://propellers.net/maven</url>
-	      <layout>legacy</layout>
-	    </snapshotRepository>
 	</distributionManagement>
 
 </project>
