@@ -57,4 +57,14 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+	    <repository>
+	      <uniqueVersion>false</uniqueVersion>
+	      <id>github</id>
+	      <name>Demo Github Repo</name>
+	      <url>https://maven.pkg.github.com/Yoann-B-ENI/demo</url>
+	      <layout>default</layout>
+	    </repository>
+	</distributionManagement>
+
 </project>
