@@ -43,3 +43,8 @@ jobs:
           distribution: 'temurin'
       - name: Docker Build
         run: docker build . --file Dockerfile --tag demo-image:$(date +%s)
+      - name: Upload JAR artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: demo-jar
+          path: target/*.jar
