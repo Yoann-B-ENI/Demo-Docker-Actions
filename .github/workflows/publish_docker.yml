@@ -1,4 +1,4 @@
-name: Maven Package
+name: Docker Build
 on:
   release:
     types: [created]
