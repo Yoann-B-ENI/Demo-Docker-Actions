@@ -5,11 +5,11 @@ on:
 
 jobs:
   docker:
-    runs-on: ${{ matrix.os }}
-
     strategy: 
       matrix: 
         os: [ubuntu-latest, debian-latest, macos-latest]
+        
+    runs-on: ${{ matrix.os }}
     
     steps:
       -
